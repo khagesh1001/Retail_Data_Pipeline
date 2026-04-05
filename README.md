@@ -13,11 +13,11 @@ The pipeline enables data cleaning, transformation, aggregation, and business an
 
 | Notebook |  Purpose |
 |----------|---------|
-| `01_ingestion_bronze.ipynb` | Read raw transactional data into Bronze layer |
-| `02_cleaning_silver.ipynb` | Clean, format, and transform data to Silver layer |
-| `03_gold_aggregations.ipynb` | Aggregate data to Gold layer for business metrics |
-| `04_regression_models.ipynb` | Predict order value, quantity, and monthly revenue using PySpark ML |
-| `05_dashboard_analytics.ipynb` | Build Databricks dashboards for KPIs, customer, product, and revenue insights |
+| `01_bronze_ingestion.ipynb` | Read raw transactional data into Bronze layer |
+| `02_silver_layer.ipynb` | Clean, format, and transform data to Silver layer |
+| `03_gold_layer.ipynb` | Aggregate data to Gold layer for business metrics |
+| `04_Analytics.ipynb` | Predict order value, quantity, and monthly revenue using PySpark ML |
+| `05_Regression_Analysis.ipynb` | Build Databricks dashboards for KPIs, customer, product, and revenue insights |
 
 Other folders:
 - `data/` → sample dataset  
@@ -61,11 +61,11 @@ Other folders:
 1. Upload notebooks to **Databricks** workspace
 2. Set up Delta tables for Bronze, Silver, Gold layers
 3. Run notebooks sequentially:
-   1. `01_ingestion_bronze.ipynb`
-   2. `02_cleaning_silver.ipynb`
-   3. `03_gold_aggregations.ipynb`
-   4. `04_regression_models.ipynb`
-   5. `05_dashboard_analytics.ipynb`
+   1. `01_bronze_ingestion.ipynb`
+   2. `02_silver_layer.ipynb`
+   3. `03_gold_layer.ipynb`
+   4. `04_Analytics.ipynb`
+   5. `05_Regression_Analysis.ipynb`
 4. View dashboards in Databricks or connect Power BI
 
 ---
